@@ -9,12 +9,12 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #000;
+    background-color: #fff;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #000080;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -31,37 +31,47 @@ header p {
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: #28a745;
+    display: block;
+    margin: 0 auto;
+    background-color: #000080;
     color: white;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
+    width: fit-content;
 }
 
 .cta-button:hover {
-    background-color: #218838;
+    background-color: #0000ff;
 }
 
 section {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: white;
+    background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 section h2 {
-    color: #007bff;
+    color: #000080;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 section p, section dd {
     margin-bottom: 1rem;
+    text-align: center;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto 1rem;
+    color: #000080;
 }
 
 dl {
@@ -71,16 +81,18 @@ dl {
 dt {
     font-weight: bold;
     margin-top: 1rem;
+    color: #000;
 }
 
 dd {
     margin-left: 1rem;
+    color: #333;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #007bff;
+    background-color: #000080;
     color: white;
 }
 
