@@ -7,19 +7,20 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    line-height: 1.8;
-    color: #000;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Noto Sans JP', 'SF Pro Text', sans-serif;
+    line-height: 1.75;
+    color: #111;
+    background: radial-gradient(circle at top, #f2f2f7 0%, #d9dae1 60%);
     min-height: 100vh;
 }
 
 header {
-    background: linear-gradient(135deg, #000080 0%, #001f3f 100%);
-    color: white;
+    background: linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(247,247,250,0.92) 100%);
+    color: #111;
     text-align: center;
     padding: 3rem 1rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    border-bottom: 1px solid #d2d4dc;
+    backdrop-filter: blur(10px);
     position: relative;
 }
 
@@ -48,19 +49,19 @@ header p {
 }
 
 .cta-button {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+    background: #000;
     color: white;
-    padding: 1.2rem 3rem;
+    padding: 1rem 2rem;
     text-decoration: none;
-    border-radius: 50px;
-    font-weight: bold;
-    transition: all 0.3s ease;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     width: fit-content;
-    font-size: 1.2rem;
-    box-shadow: 0 4px 15px rgba(255,0,0,0.4);
-    border: 2px solid rgba(255,255,255,0.2);
+    font-size: 1.1rem;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
 .cta-button:hover {
@@ -70,14 +71,13 @@ header p {
 }
 
 section {
-    max-width: 900px;
-    margin: 3rem auto;
+    max-width: 860px;
+    margin: 2.4rem auto;
     padding: 2rem;
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.92);
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 14px 35px rgba(0,0,0,0.08);
+    border: 1px solid #d2d4dc;
     transition: transform 0.3s ease;
 }
 
@@ -86,9 +86,9 @@ section:hover {
 }
 
 section h2 {
-    color: #000080;
+    color: #121212;
     margin-bottom: 1.5rem;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     text-align: center;
     font-weight: 700;
     position: relative;
