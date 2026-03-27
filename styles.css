@@ -81,6 +81,11 @@ section {
     transition: transform 0.3s ease;
 }
 
+#cta {
+    text-align: center;
+}
+
+
 section:hover {
     transform: translateY(-5px);
 }
