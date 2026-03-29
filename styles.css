@@ -512,7 +512,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    max-width: 680px;
+    max-width: 860px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -571,6 +571,7 @@ body {
     font-size: clamp(1.2rem, 3vw, 1.38rem);
     font-weight: 400;
     margin-bottom: 0.4rem;
+    white-space: nowrap;
 }
 
 .timeline-content p {
