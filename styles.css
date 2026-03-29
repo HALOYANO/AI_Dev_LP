@@ -405,7 +405,7 @@ body {
     flex-shrink: 0;
     font-size: clamp(1.2rem, 3vw, 1.38rem);
     font-weight: 700;
-    color: var(--blue);
+    color: var(--text);
     letter-spacing: 0.05em;
     padding-top: 0.25rem;
     width: 2rem;
