@@ -1,50 +1,52 @@
-// Google Analytics 4 設定（GA_MEASUREMENT_ID を実際のIDに置き換え）
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'GA_MEASUREMENT_ID'); // 実際のGA4 Measurement IDに置き換え
-
-// CTAボタンのクリック追跡
-document.addEventListener('DOMContentLoaded', function() {
-    const ctaButtons = document.querySelectorAll('.cta-button');
-    ctaButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            gtag('event', 'click', {
-                event_category: 'engagement',
-                event_label: 'cta_button'
-            });
+// GA4 CTAクリック追跡
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.cta-button').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'click', {
+                    event_category: 'engagement',
+                    event_label: 'cta_button'
+                });
+            }
         });
     });
-});
 
-// スクロールアニメーション（fade-in）
-const observerOptions = {
-    threshold: 0.1
-};
+    // FAQ アコーディオン
+    document.querySelectorAll('.faq-question').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var isOpen = btn.getAttribute('aria-expanded') === 'true';
+            var answer = btn.nextElementSibling;
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
-        }
+            // 他を閉じる
+            document.querySelectorAll('.faq-question').forEach(function (other) {
+                other.setAttribute('aria-expanded', 'false');
+                other.nextElementSibling.classList.remove('is-open');
+            });
+
+            // 自身をトグル
+            if (!isOpen) {
+                btn.setAttribute('aria-expanded', 'true');
+                answer.classList.add('is-open');
+            }
+        });
     });
-}, observerOptions);
 
-document.querySelectorAll('section').forEach(section => {
-    observer.observe(section);
+    // スクロールアニメーション
+    var targets = document.querySelectorAll(
+        '.resonance-card, .offer-card, .timeline-item, .faq-item, .section-title, .section-subtitle, .resonance-answer'
+    );
+
+    var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    targets.forEach(function (el) {
+        el.classList.add('fade-up');
+        observer.observe(el);
+    });
 });
-
-// CSS for fade-in
-const style = document.createElement('style');
-style.textContent = `
-    section {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-    section.fade-in {
-        opacity: 1;
-        transform: translateY(0);
-    }
-`;
-document.head.appendChild(style);

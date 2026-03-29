@@ -3,65 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>経営者向け AI駆動開発教室 | HALO公式サイト</title>
-    <meta name="description" content="AIを使って非エンジニアでもコーディングができる教室。初回5000円でお試し。Claude Codeで自社LP作成体験。">
+    <title>経営者向け AI駆動開発教室 | HALO</title>
+    <meta name="description" content="非エンジニアの経営者でも、AIを使って自社サイトを2時間で作れる。Claude Codeを使った実践型プログラム。4月25日（土）豊洲開催。初回お試し5,000円。">
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>経営者向け AI駆動開発教室</h1>
-        <p>AIの力を借りて、自分でウェブサイトを作ってみませんか？<br>
-        初回は、5000円でお試しできます。</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd19s-JfAisjhp5-tDOcW0TBCr1MtfRe5fXK9ufV65fDVYpfg/viewform?usp=publish-editor" class="cta-button">今すぐ申し込む</a>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">経営者向け 実践型 AI駆動開発教室</p>
+            <h1 class="hero-title">AIで、経営者が<br>自分でつくる時代へ。</h1>
+            <p class="hero-subtitle">
+                非エンジニアでも、AIの力を借りれば自社サイトが作れる。<br>
+                初回2時間のお試しで、実際に手を動かして体験してください。
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd19s-JfAisjhp5-tDOcW0TBCr1MtfRe5fXK9ufV65fDVYpfg/viewform?usp=publish-editor"
+               class="cta-button cta-button--hero" target="_blank" rel="noopener">
+                初回お試しに申し込む
+                <span class="cta-price">（5,000円）</span>
+            </a>
+            <div class="hero-meta">
+                <span>📅 4月25日（土）14:00〜</span>
+                <span>📍 豊洲 TOYONOMA</span>
+                <span>💻 ノートPC持参</span>
+            </div>
+        </div>
     </header>
 
-    <section id="intro">
-        <img src="assets/star.svg" alt="Star icon" class="icon">
-        <h2>AIでバイブコーディング？<br>非エンジニアの経営者でもはじめられるきっかけを提供します</h2>
-        <p>AIを使って非エンジニアでもプログラミングができると聞いて、ワクワクしている経営者の方はいませんか？ この教室では、そんなあなたにぴったりの実践型プログラムをご用意しました。</p>
+    <!-- Resonance Section -->
+    <section class="section section--white" id="resonance">
+        <div class="container">
+            <p class="section-label">こんな経営者の方へ</p>
+            <h2 class="section-title">あなたも、こう感じていませんか？</h2>
+            <div class="card-grid card-grid--3">
+                <div class="resonance-card">
+                    <div class="resonance-icon">💬</div>
+                    <p>「AIでコーディングできると聞いたけど、<br>どこから始めればいいかわからない」</p>
+                </div>
+                <div class="resonance-card">
+                    <div class="resonance-icon">🔑</div>
+                    <p>「自分でやってみたいけど、<br>最初の一歩が踏み出せない」</p>
+                </div>
+                <div class="resonance-card">
+                    <div class="resonance-icon">🎯</div>
+                    <p>「エンジニアに頼まず、自社のサイトを<br>もっと自分でコントロールしたい」</p>
+                </div>
+            </div>
+            <p class="resonance-answer">
+                この教室は、そんな経営者のための「最初の一歩」を提供する場所です。
+            </p>
+        </div>
     </section>
 
-    <section id="offer">
-        <img src="assets/check.svg" alt="Check icon" class="icon">
-        <h2>教室で得られるもの</h2>
-        <p>非エンジニアの経営者でもAIを使ってコーディングできるようになるきっかけを提供。初回のお試しでは、Claude Codeを用いた開発環境を整え、自社LPを3時間で作成。現役エンジニアに質問可能。</p>
+    <!-- Offer Section -->
+    <section class="section section--light" id="offer">
+        <div class="container">
+            <p class="section-label">初回お試しで得られるもの</p>
+            <h2 class="section-title">2時間で、最初の成功体験を。</h2>
+            <p class="section-subtitle">プログラミングの知識は不要。現役エンジニアのサポートつきで、実際に手を動かします。</p>
+            <div class="card-grid card-grid--2">
+                <div class="offer-card">
+                    <div class="offer-card__icon">⚙️</div>
+                    <h3>Claude Code 環境構築</h3>
+                    <p>AIを使った開発ツール「Claude Code」のセットアップを、一緒に行います。これがバイブコーディングのスタート地点です。</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-card__icon">🖥️</div>
+                    <h3>自社LP 制作体験</h3>
+                    <p>セットアップが終わったら、そのまま自社サイト用のLPを作成。完成した成果物はそのまま持ち帰れます。</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-card__icon">👨‍💻</div>
+                    <h3>現役エンジニアのサポート</h3>
+                    <p>フルスタックエンジニアの講師が全工程をサポート。詰まったところも、その場で解決できます。</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-card__icon">🤝</div>
+                    <h3>懇親会での質問機会</h3>
+                    <p>講座後の懇親会では、AIを経営にどう活かすかについてエンジニアに質問・ディスカッションし放題。</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="timetable">
-        <img src="assets/star.svg" alt="Star icon" class="icon">
-        <h2>当日タイムライン</h2>
-        <p>序盤30分: 自己紹介と説明<br>中盤120分: AIを使ってコーディング体験<br>終盤30分: 成果報告とフィードバック</p>
+    <!-- Event Info Section -->
+    <section class="section section--white" id="event-info">
+        <div class="container container--narrow">
+            <p class="section-label">開催情報</p>
+            <h2 class="section-title">開催詳細</h2>
+            <div class="info-list">
+                <div class="info-row">
+                    <span class="info-label">日時</span>
+                    <span class="info-value">2025年4月25日（土）14:00〜17:00</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">会場</span>
+                    <span class="info-value">
+                        TOYONOMA<br>
+                        <small>東京都江東区豊洲２丁目１−９</small>
+                    </span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">参加費</span>
+                    <span class="info-value">5,000円（懇親会は別途）</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">持参物</span>
+                    <span class="info-value">ノートPC（Windows / Mac どちらでも可）</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">当日連絡先</span>
+                    <span class="info-value">090-4235-9245（ハロ矢野）</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="faq">
-        <img src="assets/question.svg" alt="Question icon" class="icon">
-        <h2>FAQ</h2>
-        <dl>
-            <dt>Q: プログラミングの知識は必要ですか？</dt>
-            <dd>A: 必要ありません。AI補助でステップバイステップ。エンジニアがフルサポート。</dd>
-            <dt>Q: 初回のお試しは何をするのですか？</dt>
-            <dd>A: Claude Code環境構築と自社LP作成。3時間で体験。</dd>
-            <dt>Q: 費用はかかりますか？</dt>
-            <dd>A: 初回5000円。継続は相談。</dd>
-            <dt>Q: 参加に必要なものはありますか？</dt>
-            <dd>A: パソコンとネット環境のみ。</dd>
-            <dt>Q: 時間が合わない場合はどうなりますか？</dt>
-            <dd>A: オンライン開催。スケジュール調整可能。</dd>
-            <dt>Q: 成果物は自分のものになりますか？</dt>
-            <dd>A: はい。自社資産として自由に使用。</dd>
-            <dt>Q: 質問はいつでもできますか？</dt>
-            <dd>A: 懇親会でエンジニアに質問。サポート検討中。</dd>
-        </dl>
+    <!-- Timetable Section -->
+    <section class="section section--light" id="timetable">
+        <div class="container">
+            <p class="section-label">当日の流れ</p>
+            <h2 class="section-title">タイムテーブル</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">14:00<br>14:15</div>
+                    <div class="timeline-content">
+                        <h3>自己紹介</h3>
+                        <p>講師と参加者の自己紹介。今日一緒に取り組む仲間と顔合わせをします。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">14:15<br>14:30</div>
+                    <div class="timeline-content">
+                        <h3>開発テーマ・方法のレクチャー</h3>
+                        <p>本日の開発テーマと、バイブコーディングの進め方をエンジニア講師が解説します。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">14:30<br>16:30</div>
+                    <div class="timeline-content">
+                        <h3>バイブコーディング 実践</h3>
+                        <p>いよいよ実践。Claude Codeを使って、自分の手でサイトを作っていきます。詰まったらすぐ講師に聞けます。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">16:30<br>17:00</div>
+                    <div class="timeline-content">
+                        <h3>成果報告とフィードバック</h3>
+                        <p>完成した成果物を発表。講師からのフィードバックで、次のステップへのヒントが得られます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="cta">
-        <h2>今すぐ参加を申し込みましょう</h2>
-        <p>AI駆動開発を体験してみてください。Googleフォームから簡単に申し込みできます。</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd19s-JfAisjhp5-tDOcW0TBCr1MtfRe5fXK9ufV65fDVYpfg/viewform?usp=publish-editor" class="cta-button">AIコーディングを一緒に始めましょう - 申し込みはこちら</a>
+    <!-- Instructor Section -->
+    <section class="section section--white" id="instructors">
+        <div class="container">
+            <p class="section-label">講師・運営メンバー</p>
+            <h2 class="section-title">信頼できる現場のプロが、全力でサポートします。</h2>
+            <div class="card-grid card-grid--2">
+                <div class="profile-card">
+                    <div class="profile-card__header">
+                        <div class="profile-avatar">山本</div>
+                        <div>
+                            <h3 class="profile-name">山本 翔平</h3>
+                            <p class="profile-role">エンジニア講師</p>
+                        </div>
+                    </div>
+                    <p class="profile-bio">東京工業大学卒業後、フルスタックエンジニアとして累計1,000万DLの大喜利アプリ「ボケて」のバックエンド〜フロントエンドを主導。PoC設計から本番運用まで一貫して担当。バイブコーディング勉強会の主催者。</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card__header">
+                        <div class="profile-avatar">矢野</div>
+                        <div>
+                            <h3 class="profile-name">矢野 卓</h3>
+                            <p class="profile-role">運営・主催</p>
+                        </div>
+                    </div>
+                    <p class="profile-bio">慶應義塾大学卒業後、株式会社ハロ創業。スマホアプリメディア事業で国内1,000万DL突破。グローバル人材教育・採用コンサルティング・AI数学教室など多数の事業を展開。</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card__header">
+                        <div class="profile-avatar">伊勢</div>
+                        <div>
+                            <h3 class="profile-name">イセ オサム</h3>
+                            <p class="profile-role">アドバイザー</p>
+                        </div>
+                    </div>
+                    <p class="profile-bio">アーティスト・茶人・経営者。プロデュースした「ボケて」等のアプリは累計1,000万DLを突破。PLAY, Inc.代表 / NAVICUS社外取締役。</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card__header">
+                        <div class="profile-avatar">吉田</div>
+                        <div>
+                            <h3 class="profile-name">吉田 行宏</h3>
+                            <p class="profile-role">アドバイザー</p>
+                        </div>
+                    </div>
+                    <p class="profile-bio">元株式会社ガリバーインターナショナル専務取締役。創業4年でガリバーを全国展開・株式公開へ導き、10年で売上1,000億を達成。現在25社以上の企業の役員・戦略顧問を務める。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section--light" id="faq">
+        <div class="container container--narrow">
+            <p class="section-label">よくある質問</p>
+            <h2 class="section-title">FAQ</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        プログラミングの知識は必要ですか？
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>必要ありません。AIが補助してくれるので、コードを書いた経験がなくても大丈夫です。エンジニア講師がステップバイステップでサポートします。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        初回で何ができるようになりますか？
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Claude Codeの環境構築と、自社用LPの作成を体験できます。完成したLPはそのまま持ち帰ってご活用いただけます。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        費用はいくらかかりますか？
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>初回お試しは5,000円です。懇親会への参加は別途費用がかかります。継続的な受講については、体験後にご相談ください。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        参加に必要なものはありますか？
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>ご自分のノートPC（WindowsでもMacでも可）をお持ちください。ソフトウェアのインストールは当日一緒に行います。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        会場はどこですか？
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>東京都江東区豊洲のTOYONOMAで開催します。詳細は申し込み後にご連絡します。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        作ったサイトは自分のものになりますか？
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>はい。制作した成果物はすべて参加者の自社資産として自由にご利用いただけます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section section--cta" id="cta">
+        <div class="container container--narrow">
+            <p class="section-label">4月25日（土）開催</p>
+            <h2 class="cta-title">まず、体験してみてください。</h2>
+            <p class="cta-body">
+                2時間で最初の成功体験を。<br>
+                AIコーディングの世界への扉を、一緒に開きましょう。
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd19s-JfAisjhp5-tDOcW0TBCr1MtfRe5fXK9ufV65fDVYpfg/viewform?usp=publish-editor"
+               class="cta-button" target="_blank" rel="noopener">
+                初回お試しに申し込む
+                <span class="cta-price">（5,000円）</span>
+            </a>
+            <p class="cta-note">Googleフォームから簡単にお申し込みいただけます</p>
+        </div>
     </section>
 
     <footer>
-        <p>© 2026 HALO公式サイト | お問い合わせ: info@halo.com</p>
+        <div class="container">
+            <p>© 2025 HALO | <a href="mailto:info@halo.com">info@halo.com</a></p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
