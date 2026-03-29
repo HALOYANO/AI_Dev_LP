@@ -427,8 +427,25 @@ body {
 /* ============================================
    Event Info
    ============================================ */
+#event-info {
+    background-image: url('assets/toyonoma.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#event-info::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.75);
+    pointer-events: none;
+}
+
 #event-info .container--narrow {
     max-width: 864px;
+    position: relative;
+    z-index: 1;
 }
 
 .info-list {
