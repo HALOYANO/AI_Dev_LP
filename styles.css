@@ -469,7 +469,7 @@ body {
 
 .info-label {
     flex: 0 0 8rem;
-    font-size: 1.275rem;
+    font-size: clamp(1.2rem, 3vw, 1.38rem);
     font-weight: 700;
     color: var(--text);
     padding-top: 0.1rem;
@@ -478,14 +478,14 @@ body {
 
 .info-value {
     flex: 1;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 3vw, 1.38rem);
     line-height: 1.7;
     white-space: nowrap;
 }
 
 .info-value small {
     display: block;
-    font-size: 1.275rem;
+    font-size: clamp(1.2rem, 3vw, 1.38rem);
     color: var(--text-muted);
     margin-top: 0.2rem;
 }
@@ -536,7 +536,7 @@ body {
 
 .timeline-time {
     flex: 0 0 4rem;
-    font-size: 1.125rem;
+    font-size: clamp(1.2rem, 3vw, 1.38rem);
     font-weight: 700;
     color: var(--text);
     text-align: right;
@@ -554,7 +554,7 @@ body {
 }
 
 .timeline-content h3 {
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 3vw, 1.38rem);
     font-weight: 400;
     margin-bottom: 0.4rem;
 }
@@ -795,7 +795,7 @@ footer a:hover {
 
     .timeline-time {
         flex: 0 0 3rem;
-        font-size: 1.05rem;
+        font-size: clamp(1.2rem, 3vw, 1.38rem);
     }
 
     .timeline-item {
