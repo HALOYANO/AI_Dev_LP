@@ -102,7 +102,7 @@ body {
 .hero-subtitle {
     font-size: clamp(1rem, 2.5vw, 1.15rem);
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.75);
+    color: #fff;
     margin-bottom: 2.5rem;
     line-height: 1.9;
 }
@@ -115,7 +115,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.55);
+    color: #fff;
 }
 
 /* ============================================
@@ -127,9 +127,9 @@ body {
     justify-content: center;
     background: #0071e3;
     color: #fff;
-    padding: 1.125rem 2.25rem;
+    padding: 0.9rem 1.8rem;
     border-radius: 980px;
-    font-size: 1.59375rem;
+    font-size: 1.275rem;
     font-weight: 400;
     letter-spacing: 0;
     text-decoration: none;
@@ -142,8 +142,8 @@ body {
 }
 
 .cta-button--hero {
-    font-size: 1.59375rem;
-    padding: 1.125rem 2.25rem;
+    font-size: 1.275rem;
+    padding: 0.9rem 1.8rem;
 }
 
 /* ============================================
@@ -605,8 +605,8 @@ body {
 }
 
 .section--cta .cta-button {
-    font-size: 1.59375rem;
-    padding: 1.125rem 2.25rem;
+    font-size: 1.275rem;
+    padding: 0.9rem 1.8rem;
 }
 
 .cta-note {
