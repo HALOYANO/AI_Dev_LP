@@ -428,6 +428,10 @@ body {
 /* ============================================
    Event Info
    ============================================ */
+#event-info .container--narrow {
+    max-width: 864px;
+}
+
 .info-list {
     margin-top: 2.5rem;
     border: 1px solid var(--border);
