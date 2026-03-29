@@ -444,7 +444,9 @@ body {
 
 #event-info .section-label {
     color: var(--blue);
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 0.75rem;
     background: rgba(255, 255, 255, 0.88);
     padding: 0.25rem 1.25rem;
     border-radius: 100px;
