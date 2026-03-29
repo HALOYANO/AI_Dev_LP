@@ -514,7 +514,7 @@ body {
 
 .timeline-time {
     flex: 0 0 4rem;
-    font-size: 0.75rem;
+    font-size: 1.125rem;
     font-weight: 700;
     color: var(--blue);
     text-align: right;
@@ -532,7 +532,7 @@ body {
 }
 
 .timeline-content h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0.4rem;
 }
@@ -773,7 +773,7 @@ footer a:hover {
 
     .timeline-time {
         flex: 0 0 3rem;
-        font-size: 0.7rem;
+        font-size: 1.05rem;
     }
 
     .timeline-item {
