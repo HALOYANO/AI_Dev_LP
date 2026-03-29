@@ -235,6 +235,10 @@ body {
     padding-bottom: 2.5rem;
 }
 
+#timetable {
+    padding-bottom: 2.5rem;
+}
+
 /* ============================================
    Target Quote
    ============================================ */
@@ -509,7 +513,7 @@ body {
    Timeline
    ============================================ */
 .timeline {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     position: relative;
