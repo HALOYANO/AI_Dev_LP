@@ -226,6 +226,10 @@ body {
     margin-right: auto;
 }
 
+#target {
+    padding-bottom: 2.5rem;
+}
+
 /* ============================================
    Target Quote
    ============================================ */
@@ -257,7 +261,7 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 1.25rem;
-    margin-top: 2.5rem;
+    margin-top: 1.25rem;
 }
 
 .speech-avatar {
