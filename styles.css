@@ -619,6 +619,11 @@ body {
     flex-shrink: 0;
 }
 
+.profile-avatar--photo {
+    object-fit: cover;
+    background: none;
+}
+
 .profile-name {
     font-size: 1.05rem;
     font-weight: 700;
