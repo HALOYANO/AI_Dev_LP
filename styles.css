@@ -443,8 +443,11 @@ body {
 }
 
 #event-info .section-label {
-    color: #fff;
-    text-shadow: 0 1px 6px rgba(0,0,0,0.55);
+    color: var(--blue);
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 0.25rem 1.25rem;
+    border-radius: 100px;
 }
 
 #event-info .info-list {
