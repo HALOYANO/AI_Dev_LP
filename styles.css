@@ -442,12 +442,13 @@ body {
     position: relative;
 }
 
-#event-info::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.45);
-    pointer-events: none;
+#event-info .section-label {
+    color: #fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.55);
+}
+
+#event-info .info-list {
+    background: rgba(255, 255, 255, 0.92);
 }
 
 #event-info .container--narrow {
