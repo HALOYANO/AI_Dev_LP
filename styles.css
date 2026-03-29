@@ -520,7 +520,7 @@ body {
     flex: 0 0 4rem;
     font-size: 1.125rem;
     font-weight: 700;
-    color: var(--blue);
+    color: var(--text);
     text-align: right;
     line-height: 1.5;
     padding-top: 0.15rem;
