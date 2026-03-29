@@ -127,9 +127,9 @@ body {
     justify-content: center;
     background: #0071e3;
     color: #fff;
-    padding: 0.75rem 1.5rem;
+    padding: 1.125rem 2.25rem;
     border-radius: 980px;
-    font-size: 1.0625rem;
+    font-size: 1.59375rem;
     font-weight: 400;
     letter-spacing: 0;
     text-decoration: none;
@@ -142,8 +142,8 @@ body {
 }
 
 .cta-button--hero {
-    font-size: 1.0625rem;
-    padding: 0.75rem 1.5rem;
+    font-size: 1.59375rem;
+    padding: 1.125rem 2.25rem;
 }
 
 /* ============================================
@@ -605,8 +605,8 @@ body {
 }
 
 .section--cta .cta-button {
-    font-size: 1.0625rem;
-    padding: 0.75rem 1.5rem;
+    font-size: 1.59375rem;
+    padding: 1.125rem 2.25rem;
 }
 
 .cta-note {
