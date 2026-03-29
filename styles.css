@@ -78,6 +78,15 @@ body {
     margin: 0 auto;
 }
 
+.hero-logo {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hero-eyebrow {
     display: inline-block;
     font-size: 0.78rem;
