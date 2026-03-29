@@ -113,6 +113,7 @@ body {
     flex-wrap: wrap;
     gap: 1rem 2rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.55);
 }
