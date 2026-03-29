@@ -393,7 +393,7 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 1.5rem;
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid var(--border);
 }
 
