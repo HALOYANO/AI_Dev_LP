@@ -715,7 +715,7 @@ body {
 
 .faq-answer.is-open {
     max-height: 200px;
-    padding: 0 1.5rem 1.25rem;
+    padding: 0 1.5rem 0.625rem;
 }
 
 .faq-answer p {
