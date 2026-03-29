@@ -403,7 +403,7 @@ body {
 
 .offer-num {
     flex-shrink: 0;
-    font-size: 0.72rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: var(--blue);
     letter-spacing: 0.05em;
