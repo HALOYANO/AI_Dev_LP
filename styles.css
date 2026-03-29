@@ -403,7 +403,7 @@ body {
 
 .offer-num {
     flex-shrink: 0;
-    font-size: 1.05rem;
+    font-size: 1.575rem;
     font-weight: 700;
     color: var(--blue);
     letter-spacing: 0.05em;
@@ -412,7 +412,7 @@ body {
 }
 
 .offer-item h3 {
-    font-size: 1.05rem;
+    font-size: 1.575rem;
     font-weight: 700;
     margin-bottom: 0.35rem;
     line-height: 1.4;
