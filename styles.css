@@ -242,6 +242,75 @@ body {
 }
 
 /* ============================================
+   Speech Bubble
+   ============================================ */
+.speech-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.speech-avatar {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy), var(--blue));
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+}
+
+.speech-bubble {
+    position: relative;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 2rem;
+    font-size: clamp(1.05rem, 2.5vw, 1.2rem);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2;
+    color: var(--text);
+}
+
+.speech-bubble::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 24px;
+    border-width: 8px 10px 8px 0;
+    border-style: solid;
+    border-color: transparent var(--border) transparent transparent;
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 25px;
+    border-width: 7px 9px 7px 0;
+    border-style: solid;
+    border-color: transparent var(--bg) transparent transparent;
+}
+
+@media (max-width: 480px) {
+    .speech-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .speech-bubble::before,
+    .speech-bubble::after {
+        display: none;
+    }
+}
+
+/* ============================================
    Resonance Cards
    ============================================ */
 .card-grid {
