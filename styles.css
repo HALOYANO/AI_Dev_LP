@@ -137,7 +137,7 @@ body {
     justify-content: center;
     background: #0071e3;
     color: #fff;
-    padding: 0.9rem 3.6rem;
+    padding: 0.9rem 7.2rem;
     border-radius: 980px;
     font-size: 1.275rem;
     font-weight: 400;
@@ -154,7 +154,7 @@ body {
 
 .cta-button--hero {
     font-size: 1.275rem;
-    padding: 0.9rem 3.6rem;
+    padding: 0.9rem 7.2rem;
 }
 
 /* ============================================
@@ -745,7 +745,7 @@ body {
 
 .section--cta .cta-button {
     font-size: 1.275rem;
-    padding: 0.9rem 3.6rem;
+    padding: 0.9rem 7.2rem;
 }
 
 .cta-note {
