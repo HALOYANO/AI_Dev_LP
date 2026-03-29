@@ -118,38 +118,31 @@ body {
 }
 
 /* ============================================
-   CTA Button
+   CTA Button — Apple style
    ============================================ */
 .cta-button {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    background: var(--white);
-    color: var(--navy);
-    padding: 1rem 2rem;
-    border-radius: 100px;
-    font-size: 1.05rem;
-    font-weight: 700;
+    justify-content: center;
+    background: #0071e3;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 980px;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    letter-spacing: 0;
     text-decoration: none;
-    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    transition: background 0.3s ease;
 }
 
 .cta-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
-    background: #f0f4ff;
+    background: #0077ed;
 }
 
 .cta-button--hero {
-    font-size: 1.1rem;
-    padding: 1.1rem 2.25rem;
-}
-
-.cta-price {
-    font-weight: 400;
-    font-size: 0.9em;
-    opacity: 0.7;
+    font-size: 1.0625rem;
+    padding: 0.75rem 1.5rem;
 }
 
 /* ============================================
@@ -611,14 +604,8 @@ body {
 }
 
 .section--cta .cta-button {
-    background: var(--white);
-    color: var(--navy);
-    font-size: 1.1rem;
-    padding: 1.1rem 2.25rem;
-}
-
-.section--cta .cta-button:hover {
-    background: #f0f4ff;
+    font-size: 1.0625rem;
+    padding: 0.75rem 1.5rem;
 }
 
 .cta-note {
@@ -721,7 +708,6 @@ footer a:hover {
 
 @media (max-width: 480px) {
     .cta-button {
-        width: 100%;
-        justify-content: center;
+        min-width: 220px;
     }
 }
