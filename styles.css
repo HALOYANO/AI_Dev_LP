@@ -236,7 +236,7 @@ body {
     padding-top: 0;
     background: url('assets/nayamu.jpg') left 20% / cover no-repeat;
     position: relative;
-    min-height: 210px;
+    min-height: 252px;
     display: flex;
     align-items: center;
 }
