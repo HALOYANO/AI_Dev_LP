@@ -735,7 +735,7 @@ body {
 
 .faq-answer p {
     font-size: 0.95rem;
-    color: var(--text-muted);
+    color: var(--text);
     line-height: 1.8;
     border-left: 3px solid var(--blue);
     padding-left: 1rem;
