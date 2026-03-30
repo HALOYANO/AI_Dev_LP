@@ -558,7 +558,7 @@ body {
 .timeline-item {
     display: flex;
     gap: 2rem;
-    padding: 0.333rem 0;
+    padding: 0.167rem 0;
     position: relative;
 }
 
