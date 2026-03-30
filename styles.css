@@ -113,7 +113,7 @@ body {
 }
 
 .hero-subtitle {
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 400;
     color: #fff;
     margin-bottom: 1.25rem;
@@ -317,7 +317,7 @@ body {
     border: none;
     border-radius: 1.5rem;
     padding: 1.5rem 2rem 2rem;
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 400;
     font-style: normal;
     line-height: 2;
@@ -434,7 +434,7 @@ body {
 
 .offer-num {
     flex-shrink: 0;
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 700;
     color: var(--text);
     letter-spacing: 0.05em;
@@ -442,7 +442,7 @@ body {
 }
 
 .offer-item h3 {
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 400;
     margin-bottom: 0.35rem;
     line-height: 1.4;
@@ -506,7 +506,7 @@ body {
 
 .info-label {
     flex: 0 0 8rem;
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 700;
     color: var(--text);
     padding-top: 0.1rem;
@@ -515,14 +515,14 @@ body {
 
 .info-value {
     flex: 1;
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     line-height: 1.7;
     white-space: nowrap;
 }
 
 .info-value small {
     display: block;
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     color: var(--text-muted);
     margin-top: 0.2rem;
 }
@@ -573,7 +573,7 @@ body {
 
 .timeline-time {
     flex: 0 0 4rem;
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 700;
     color: var(--text);
     text-align: right;
@@ -591,7 +591,7 @@ body {
 }
 
 .timeline-content h3 {
-    font-size: clamp(1.2rem, 3vw, 1.38rem);
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     font-weight: 400;
     margin-bottom: 0.4rem;
     white-space: nowrap;
@@ -838,7 +838,7 @@ footer a:hover {
 
     .timeline-time {
         flex: 0 0 3rem;
-        font-size: clamp(1.2rem, 3vw, 1.38rem);
+        font-size: clamp(1.08rem, 2.7vw, 1.242rem);
     }
 
     .timeline-item {
