@@ -628,8 +628,8 @@ body {
 }
 
 .profile-avatar {
-    width: 52px;
-    height: 52px;
+    width: 78px;
+    height: 78px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--navy), var(--blue));
     color: white;
