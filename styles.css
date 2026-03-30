@@ -268,6 +268,31 @@ body {
 
 #faq {
     padding-bottom: 1.25rem;
+    background-image: url('assets/AI_Sugaku.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#faq .section-label {
+    color: var(--blue);
+    display: block;
+    width: fit-content;
+    margin: 0 auto 0.75rem;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 0.25rem 1.25rem;
+    border-radius: 100px;
+}
+
+#faq .faq-list {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: var(--radius);
+    padding: 0.5rem 1rem;
+}
+
+#faq .container--narrow {
+    position: relative;
+    z-index: 1;
 }
 
 /* ============================================
