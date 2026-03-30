@@ -234,9 +234,7 @@ body {
 #target {
     padding-bottom: 0;
     padding-top: 0;
-    background-image: url('assets/nayamu.jpg');
-    background-size: cover;
-    background-position: left center;
+    background: url('assets/nayamu.jpg') left center / cover no-repeat;
     position: relative;
     min-height: 420px;
     display: flex;
