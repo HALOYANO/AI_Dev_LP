@@ -560,18 +560,19 @@ body {
     gap: 2rem;
     padding: 0.167rem 0;
     position: relative;
+    align-items: center;
 }
 
 .timeline-item::before {
     content: '';
     position: absolute;
     left: 4.5rem;
-    top: 2.4rem;
+    top: 50%;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background: var(--blue);
-    transform: translateX(-4px);
+    transform: translate(-4px, -50%);
     z-index: 1;
 }
 
@@ -582,7 +583,6 @@ body {
     color: var(--text);
     text-align: right;
     line-height: 1.5;
-    padding-top: 0.15rem;
 }
 
 .timeline-content {
