@@ -437,6 +437,35 @@ body {
 }
 
 /* ============================================
+   Voices
+   ============================================ */
+#voices {
+    padding-bottom: 2.5rem;
+}
+
+.voices-list {
+    list-style: none;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.voice-item {
+    font-size: clamp(1.08rem, 2.7vw, 1.242rem);
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--text);
+    padding: 1rem 1.5rem;
+    background: var(--bg);
+    border-left: 4px solid var(--blue);
+    border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* ============================================
    Offer List
    ============================================ */
 .offer-list {
