@@ -655,6 +655,14 @@ body {
     white-space: nowrap;
 }
 
+.timeline-note {
+    font-size: clamp(1.428rem, 3.36vw, 2.016rem);
+    font-weight: 700;
+    text-align: center;
+    color: var(--text);
+    margin-top: 1.25rem;
+}
+
 .timeline-content p {
     font-size: 0.93rem;
     color: var(--text-muted);
