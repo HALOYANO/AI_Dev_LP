@@ -813,8 +813,9 @@ body {
 }
 
 .cta-body {
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: clamp(1.512rem, 3.36vw, 2.184rem);
+    font-weight: 700;
+    color: #fff;
     margin-bottom: 2.5rem;
     line-height: 1.9;
 }
