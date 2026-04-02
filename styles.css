@@ -818,6 +818,7 @@ body {
     color: #fff;
     margin-bottom: 2.5rem;
     line-height: 1.9;
+    white-space: nowrap;
 }
 
 .section--cta .cta-button {
