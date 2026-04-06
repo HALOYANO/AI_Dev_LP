@@ -866,6 +866,8 @@ footer a:hover {
     transform: translateY(0);
 }
 
+.sp-br { display: none; }
+
 /* ============================================
    Responsive
    ============================================ */
@@ -877,6 +879,8 @@ footer a:hover {
     .hero-subtitle br {
         display: none;
     }
+
+    .sp-br { display: inline; }
 
     .hero-meta {
         flex-direction: column;
